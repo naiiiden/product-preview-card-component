@@ -1,0 +1,13 @@
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $cream;
+}
+
+.product--container {
+    background: $white;
+    width: 300px;
+    margin: auto ;
+}
