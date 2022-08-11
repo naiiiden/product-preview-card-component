@@ -126,4 +126,13 @@ main {
   .product--container .text--container .product--prices .new--price {
     font-size: 2rem;
   }
+}
+@media screen and (min-width: 1024px) {
+  .product--container .text--container button {
+    transition: 0.2s;
+  }
+  .product--container .text--container button:hover {
+    background: hsl(157deg, 37%, 22%);
+    transition: 0.2s;
+  }
 }/*# sourceMappingURL=general.css.map */

@@ -115,3 +115,18 @@ main {
         }
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .product--container {
+        .text--container {
+            button {
+                transition: .2s;
+
+                &:hover {
+                    background: hsl(157, 37%, 22%);
+                    transition: .2s;
+                }
+            }
+        }
+    }
+}
