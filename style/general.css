@@ -98,4 +98,32 @@ main {
   border: none;
   border-radius: 7.5px;
   cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .product--container {
+    width: 600px;
+    display: flex;
+  }
+  .product--container .product--image {
+    height: unset;
+    width: 50%;
+    background: url("../images/image-product-desktop.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-top-left-radius: 7.5px;
+    border-bottom-left-radius: 7.5px;
+    border-top-right-radius: unset;
+  }
+  .product--container .text--container {
+    width: 50%;
+    padding: 1.5rem;
+    gap: 1.5rem;
+  }
+  .product--container .text--container h2 {
+    font-size: 2.125rem;
+  }
+  .product--container .text--container .product--prices .new--price {
+    font-size: 2rem;
+  }
 }/*# sourceMappingURL=general.css.map */
